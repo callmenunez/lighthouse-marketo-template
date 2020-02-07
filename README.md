@@ -1,0 +1,1 @@
+# lighthouse-marketo-template
