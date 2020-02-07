@@ -1,0 +1,68 @@
+.header, .body, .footer {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.header {
+  min-height: 100px;
+  padding: 20px 0;
+  background-color: #4e7992;
+  box-shadow: 0 -10px 20px 5px #003F5B;
+  display: flex;
+  align-items: center;
+  &__phoneSection {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__phoneNumber {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 1;
+    text-align: right;
+  }
+}
+.body {
+  padding: 90px 0 100px;
+  &__headline {
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+    color: #52b7d3;
+    margin: 0 0 30px;
+  }
+  &__bodyText {
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 0 20px;
+  }
+  &__bodySignature {
+    font-size: 30px;
+    line-height: 1;
+    margin: 0 0 20px;
+    font-weight: 700;
+  }
+}
+.footer {
+  min-height: 160px;
+  background-color:#d7d7d7;
+  padding: 50px 0;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
